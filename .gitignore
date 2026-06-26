@@ -179,3 +179,29 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+Software/yolov3/
+dataset/
+
+# ===========================================
+# Ignore everything by default
+# ===========================================
+*
+
+# ===========================================
+# Keep these files
+# ===========================================
+!cpp.pptx
+!Partial_report.pdf
+!Report.pdf
+
+# ===========================================
+# Keep Git configuration
+# ===========================================
+!.gitignore
+!README.md
+
+# ===========================================
+# Keep folders so Git can find allowed files
+# ===========================================
+!*/
